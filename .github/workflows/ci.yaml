@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           apt update
-          apt -y install live-build make build-essential wget git unzip colordiff apt-transport-https rename ovmf rsync python3-venv gnupg
+          apt -y install live-build make build-essential wget git unzip colordiff apt-transport-https rename ovmf rsync python3-venv gnupg ca-certificates
 
       - name: Create live-build directory structure
         run: |
